@@ -44,13 +44,20 @@ export type StoryActivity = {
   kind: "story";
   name: string;
 };
-
-export type PrizeActivity = {
-  kind: "prize";
+export type WinActivity = {
+  kind: "win";
   prize: Prize;
 };
+export type GoodwillActivity = {
+  kind: "goodwill";
+  name: string;
+};
 
-export type Activity = StoryActivity | TipActivity | PrizeActivity;
+export type Activity =
+  | StoryActivity
+  | TipActivity
+  | WinActivity
+  | GoodwillActivity;
 
 export type TicketState = "valid" | "invalid" | "winner";
 
@@ -74,7 +81,7 @@ export type Prize = {
   image: string;
   id: string;
   drawDate: Day;
-  activity: Activity;
+
   ticket: Ticket[];
   user: User | null;
   product: Product[];
@@ -87,7 +94,7 @@ export type Door = {
   image: string;
   icon: string;
   day: Day;
-  status: DoorStatus;
+  doorStatus: DoorStatus;
 
   activities: Activity[];
   tickets: Ticket[];

@@ -1,0 +1,16 @@
+[
+  {
+    "day": 1,
+    "theme": "Den lille pige med svovlstikkerne",
+    "doorStatus": "opened",
+    "discountCode": "SVOVLSTIKKER",
+    "image": "https://example.com/image.jpg",
+    "icon": "https://example.com/image.jpg",
+    "activities": [
+      {
+        "kind": "story",
+        "name": "Den lille pige med svovlstikkerne"
+      }
+    ]
+  }
+]
