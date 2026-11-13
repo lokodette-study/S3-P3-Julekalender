@@ -1,12 +1,22 @@
 export type Theme =
-  | "Prinsessen på ærten"
-  | "Nattergalen"
-  | "Snedronningen"
-  | "Hyrdinden og skorstensfejeren"
   | "Den lille pige med svovlstikkerne"
-  | "Tommelise"
+  | "Klods-Hans"
+  | "Hyrdinden og skorstensfejeren"
+  | "Prinsessen på ærten"
+  | "Snedronningen"
+  | "Nattergalen"
   | "Svinedrengen"
-  | "Klods-Hans";
+  | "Tommelise";
+
+export type DiscountCode =
+  | "SVOVLSTIKKER"
+  | "KLODSHANS"
+  | "HYRDINDEN"
+  | "VEDLIGEHOLD"
+  | "SNEDRONNINGEN"
+  | "NATTERGALEN"
+  | "SVINEDRENGEN"
+  | "TOMMELISE";
 
 export type Day =
   | 1
@@ -34,7 +44,7 @@ export type Day =
   | 23
   | 24;
 
-export type DoorStatus = "locked" | "openable" | "opened";
+export type DoorStatus = "locked" | "available" | "opened";
 
 export type TipActivity = {
   kind: "tip";
@@ -59,12 +69,9 @@ export type Activity =
   | WinActivity
   | GoodwillActivity;
 
-export type TicketState = "valid" | "invalid" | "winner";
-
-export type Ticket = {
-  id: string;
-  date: number;
-  state: TicketState;
+export type User = {
+  email: string;
+  ticketCount: number;
 };
 
 export type Product = {
@@ -76,16 +83,22 @@ export type Product = {
   price: number;
 };
 
-export type Prize = {
+export type ThemePrize = {
+  kind: "themePrize";
   name: string;
   image: string;
   id: string;
   drawDate: Day;
-
-  ticket: Ticket[];
-  user: User | null;
-  product: Product[];
 };
+export type GrandPrize = {
+  kind: "grandPrize";
+  name: string;
+  image: string;
+  id: string;
+  drawDate: Day;
+};
+
+export type Prize = ThemePrize | GrandPrize;
 
 export type Door = {
   id: string;
@@ -97,11 +110,4 @@ export type Door = {
   doorStatus: DoorStatus;
 
   activities: Activity[];
-  tickets: Ticket[];
-  users: User[];
-};
-
-export type User = {
-  email: string;
-  ticketCount: number;
 };

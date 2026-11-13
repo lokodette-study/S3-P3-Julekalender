@@ -1,0 +1,46 @@
+:root {
+  /* ==============================
+     BRAND COLORS
+  ============================== */
+
+  --color-merlot-fields: #6b212c;
+  --color-anti-flash-white: #f3f3f3;
+  --color-underground: #685652;
+  --color-deep-forest: #34443a;
+
+  /* ==============================
+     NEUTRAL COLORS
+  ============================== */
+
+  --color-neutral-100: #f3f3f3;
+  --color-neutral-200: #e4dedd;
+  --color-neutral-300: #cec2c0;
+  --color-neutral-400: #b3a19e;
+  --color-neutral-500: #98807c;
+  --color-neutral-600: #7e6763;
+  --color-neutral-700: #685652;
+  --color-neutral-800: #463735;
+  --color-neutral-900: #231b1a;
+
+  /* ==============================
+     SEMANTIC COLORS
+  ============================== */
+
+  /* Text */
+  --color-text-primary: var(--color-neutral-900);
+  --color-text-secondary: var(--color-neutral-700);
+  --color-text-inverse: var(--color-anti-flash-white);
+
+  /* Background */
+  --color-background-primary: var(--color-anti-flash-white);
+  --color-background-secondary: var(--color-neutral-200);
+  --color-background-brand: var(--color-deep-forest);
+
+  /* Interactive */
+  --color-interactive-primary: var(--color-merlot-fields);
+  --color-interactive-secondary: var(--color-deep-forest);
+
+  /* Borders */
+  --color-border: var(--color-neutral-300);
+  --color-border-strong: var(--color-neutral-700);
+}

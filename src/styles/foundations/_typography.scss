@@ -1,0 +1,43 @@
+:root {
+  /* ==============================
+     FONT FAMILIES
+  ============================== */
+
+  --font-body: "Gill Sans MT", sans-serif;
+  --font-heading: "Ibarra Real Nova", serif;
+
+  /* ==============================
+     FONT WEIGHTS
+  ============================== */
+
+  --font-weight-regular: 400;
+  --font-weight-semibold: 600;
+
+  /* ==============================
+     FONT SIZES
+  ============================== */
+
+  --font-size-h1: 48px;
+  --font-size-h2: 40px;
+  --font-size-h3: 32px;
+  --font-size-quote: 32px;
+  --font-size-body: 20px;
+  --font-size-door-number: 12px;
+
+  /* ==============================
+     LINE HEIGHTS
+  ============================== */
+
+  --line-height-h1: 110%;
+  --line-height-h2: 120%;
+  --line-height-h3: 125%;
+  --line-height-quote: 140%;
+  --line-height-body: normal;
+
+  /* ==============================
+     LETTER SPACING
+  ============================== */
+
+  --letter-spacing-heading: 0.08em;
+  --letter-spacing-body: 0;
+}

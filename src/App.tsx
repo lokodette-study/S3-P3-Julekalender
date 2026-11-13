@@ -1,121 +1,78 @@
-import { useState } from 'react'
-import heroImg from './assets/hero.png'
-import reactLogo from './assets/react.svg'
-import viteLogo from './assets/vite.svg'
+import './styles/foundations/_colors.scss'
+import './styles/foundations/_spacing.scss'
+import './styles/foundations/_typography.scss'
 import './App.css'
 
+const brandColors = [
+  { name: 'Merlot Fields', value: '#6b212c', className: 'merlot-fields' },
+  {
+    name: 'Anti-Flash White',
+    value: '#f3f3f3',
+    className: 'anti-flash-white',
+  },
+  { name: 'Underground', value: '#685652', className: 'underground' },
+  { name: 'Deep Forest', value: '#34443a', className: 'deep-forest' },
+] as const
+
+const spacingValues = [
+  { token: '--spacing-100', value: '4px', className: 'spacing-100' },
+  { token: '--spacing-200', value: '8px', className: 'spacing-200' },
+  { token: '--spacing-400', value: '16px', className: 'spacing-400' },
+  { token: '--spacing-500', value: '20px', className: 'spacing-500' },
+  { token: '--spacing-600', value: '24px', className: 'spacing-600' },
+  { token: '--spacing-800', value: '32px', className: 'spacing-800' },
+  { token: '--spacing-1200', value: '48px', className: 'spacing-1200' },
+  { token: '--spacing-1600', value: '64px', className: 'spacing-1600' },
+] as const
+
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <>
-      <section id="center">
-        <div className="hero">
-          <img src={heroImg} className="base" width="170" height="179" alt="" />
-          <img src={reactLogo} className="framework" alt="React logo" />
-          <img src={viteLogo} className="vite" alt="Vite logo" />
-        </div>
-        <div>
-          <h1>Get started</h1>
-          <p>
-            Edit <code>src/App.tsx</code> and save to test <code>HMR</code>
-          </p>
-        </div>
-        <button
-          type="button"
-          className="counter"
-          onClick={() => setCount((count) => count + 1)}
-        >
-          Count is {count}
-        </button>
-      </section>
+    <main className="foundation-test">
+      <header className="foundation-test__header">
+        <p className="foundation-test__eyebrow">Foundations · visuel test</p>
+        <h1>H.C. Andersen Julekalender</h1>
+      </header>
 
-      <div className="ticks"></div>
-
-      <section id="next-steps">
-        <div id="docs">
-          <svg className="icon" role="presentation" aria-hidden="true">
-            <use href="/icons.svg#documentation-icon"></use>
-          </svg>
-          <h2>Documentation</h2>
-          <p>Your questions, answered</p>
-          <ul>
-            <li>
-              <a href="https://vite.dev/" target="_blank">
-                <img className="logo" src={viteLogo} alt="" />
-                Explore Vite
-              </a>
-            </li>
-            <li>
-              <a href="https://react.dev/" target="_blank">
-                <img className="button-icon" src={reactLogo} alt="" />
-                Learn more
-              </a>
-            </li>
-          </ul>
-        </div>
-        <div id="social">
-          <svg className="icon" role="presentation" aria-hidden="true">
-            <use href="/icons.svg#social-icon"></use>
-          </svg>
-          <h2>Connect with us</h2>
-          <p>Join the Vite community</p>
-          <ul>
-            <li>
-              <a href="https://github.com/vitejs/vite" target="_blank">
-                <svg
-                  className="button-icon"
-                  role="presentation"
-                  aria-hidden="true"
-                >
-                  <use href="/icons.svg#github-icon"></use>
-                </svg>
-                GitHub
-              </a>
-            </li>
-            <li>
-              <a href="https://chat.vite.dev/" target="_blank">
-                <svg
-                  className="button-icon"
-                  role="presentation"
-                  aria-hidden="true"
-                >
-                  <use href="/icons.svg#discord-icon"></use>
-                </svg>
-                Discord
-              </a>
-            </li>
-            <li>
-              <a href="https://x.com/vite_js" target="_blank">
-                <svg
-                  className="button-icon"
-                  role="presentation"
-                  aria-hidden="true"
-                >
-                  <use href="/icons.svg#x-icon"></use>
-                </svg>
-                X.com
-              </a>
-            </li>
-            <li>
-              <a href="https://bsky.app/profile/vite.dev" target="_blank">
-                <svg
-                  className="button-icon"
-                  role="presentation"
-                  aria-hidden="true"
-                >
-                  <use href="/icons.svg#bluesky-icon"></use>
-                </svg>
-                Bluesky
-              </a>
-            </li>
-          </ul>
+      <section
+        className="foundation-test__section"
+        aria-labelledby="brand-colors-title"
+      >
+        <h2 id="brand-colors-title">Brandfarver</h2>
+        <div className="foundation-test__colors">
+          {brandColors.map((color) => (
+            <article className="foundation-test__color" key={color.className}>
+              <div
+                className={`foundation-test__swatch foundation-test__swatch--${color.className}`}
+                role="img"
+                aria-label={`${color.name}, ${color.value}`}
+              />
+              <h3>{color.name}</h3>
+              <code>{color.value}</code>
+            </article>
+          ))}
         </div>
       </section>
 
-      <div className="ticks"></div>
-      <section id="spacer"></section>
-    </>
+      <section
+        className="foundation-test__section"
+        aria-labelledby="spacing-title"
+      >
+        <h2 id="spacing-title">Spacing-system</h2>
+        <div className="foundation-test__spacing">
+          {spacingValues.map((spacing) => (
+            <div className="foundation-test__spacing-item" key={spacing.token}>
+              <code>
+                {spacing.token} · {spacing.value}
+              </code>
+              <span
+                className={`foundation-test__spacing-sample foundation-test__spacing-sample--${spacing.className}`}
+                aria-hidden="true"
+              />
+            </div>
+          ))}
+        </div>
+      </section>
+    </main>
   )
 }
 

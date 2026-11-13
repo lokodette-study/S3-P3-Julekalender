@@ -10,6 +10,347 @@
       {
         "kind": "story",
         "name": "Den lille pige med svovlstikkerne"
+      },
+      {
+        "kind": "extra",
+        "name": "Julemærkemarchen - Gå for en god sag",
+        "date": "2026-12-06",
+        "text": "Ringsted Dun er officiel støttepartner for Julemærkemarchen 2026, som finder sted søndag den 6. december 2026. Marchen afholdes over hele landet – herunder med lokal rute og startsted i Ringsted – til fordel for børnene på Julemærkehjemmene.",
+        "link": "https://shop.julemaerket.dk/vare/julemaerkemarchen-2026-billet/"
+      }
+    ]
+  },
+  {
+    "day": 2,
+    "theme": "Den lille pige med svovlstikkerne",
+    "doorStatus": "available",
+    "discountCode": "SVOVLSTIKKER",
+    "image": "https://example.com/image.jpg",
+    "icon": "https://example.com/image.jpg",
+    "activities": [
+      {
+        "kind": "tip",
+        "name": "Baby-/juniordyne",
+        "link": "https://ringsted-dun.dk/baby-junior/"
+      }
+    ]
+  },
+  {
+    "day": 3,
+    "theme": "Den lille pige med svovlstikkerne",
+    "doorStatus": "locked",
+    "discountCode": "SVOVLSTIKKER",
+    "image": "https://example.com/image.jpg",
+    "icon": "https://example.com/image.jpg",
+    "activities": [
+      {
+        "kind": "themePrize",
+        "name": "1x Kiddy Royal Gås dyne + 1x Kiddy Royal Gås pude"
+      }
+    ]
+  },
+  {
+    "day": 4,
+    "theme": "Klods-Hans",
+    "doorStatus": "locked",
+    "discountCode": "KLODSHANS",
+    "image": "https://example.com/image.jpg",
+    "icon": "https://example.com/image.jpg",
+    "activities": [
+      {
+        "kind": "story",
+        "name": "Klods-Hans"
+      }
+    ]
+  },
+  {
+    "day": 5,
+    "theme": "Klods-Hans",
+    "doorStatus": "locked",
+    "discountCode": "KLODSHANS",
+    "image": "https://example.com/image.jpg",
+    "icon": "https://example.com/image.jpg",
+    "activities": [
+      {
+        "kind": "tip",
+        "name": "Soveguide",
+        "link": "https://ringsted-dun.dk/guides/soveguide/"
+      }
+    ]
+  },
+  {
+    "day": 6,
+    "theme": "Klods-Hans",
+    "doorStatus": "locked",
+    "discountCode": "KLODSHANS",
+    "image": "https://example.com/image.jpg",
+    "icon": "https://example.com/image.jpg",
+    "activities": [
+      {
+        "kind": "themePrize",
+        "name": "2x Klods-Hans 1-kammers puder (mellem, standard)"
+      }
+    ]
+  },
+  {
+    "day": 7,
+    "theme": "Hyrdinden og skorstensfejeren",
+    "doorStatus": "locked",
+    "discountCode": "HYRDINDEN",
+    "image": "https://example.com/image.jpg",
+    "icon": "https://example.com/image.jpg",
+    "activities": [
+      {
+        "kind": "story",
+        "name": "Hyrdinden og skorstensfejeren"
+      }
+    ]
+  },
+  {
+    "day": 8,
+    "theme": "Hyrdinden og skorstensfejeren",
+    "doorStatus": "locked",
+    "discountCode": "HYRDINDEN",
+    "image": "https://example.com/image.jpg",
+    "icon": "https://example.com/image.jpg",
+    "activities": [
+      {
+        "kind": "tip",
+        "name": "Opbevaring",
+        "link": "https://ringsted-dun.dk/guides/opbevaringsguide/"
+      }
+    ]
+  },
+  {
+    "day": 9,
+    "theme": "Hyrdinden og skorstensfejeren",
+    "doorStatus": "locked",
+    "discountCode": "HYRDINDEN",
+    "image": "https://example.com/image.jpg",
+    "icon": "https://example.com/image.jpg",
+    "activities": [
+      {
+        "kind": "themePrize",
+        "name": "2x Klods-Hans 3-kammers puder (mellem, standard)"
+      }
+    ]
+  },
+  {
+    "day": 10,
+    "theme": "Prinsessen på ærten",
+    "doorStatus": "locked",
+    "discountCode": "VEDLIGEHOLD",
+    "image": "https://example.com/image.jpg",
+    "icon": "https://example.com/image.jpg",
+    "activities": [
+      {
+        "kind": "story",
+        "name": "Prinsessen på ærten"
+      }
+    ]
+  },
+  {
+    "day": 11,
+    "theme": "Prinsessen på ærten",
+    "doorStatus": "locked",
+    "discountCode": "VEDLIGEHOLD",
+    "image": "https://example.com/image.jpg",
+    "icon": "https://example.com/image.jpg",
+    "activities": [
+      {
+        "kind": "tip",
+        "name": "Dynevælger",
+        "link": "https://ringsted-dun.dk/dynevaelger/"
+      }
+    ]
+  },
+  {
+    "day": 12,
+    "theme": "Prinsessen på ærten",
+    "doorStatus": "locked",
+    "discountCode": "VEDLIGEHOLD",
+    "image": "https://example.com/image.jpg",
+    "icon": "https://example.com/image.jpg",
+    "activities": [
+      {
+        "kind": "themePrize",
+        "name": "Dynevælgerdyne (lun, 140x220)"
+      }
+    ]
+  },
+  {
+    "day": 13,
+    "theme": "Snedronningen",
+    "doorStatus": "locked",
+    "discountCode": "SNEDRONNINGEN",
+    "image": "https://example.com/image.jpg",
+    "icon": "https://example.com/image.jpg",
+    "activities": [
+      {
+        "kind": "story",
+        "name": "Snedronningen"
+      }
+    ]
+  },
+  {
+    "day": 14,
+    "theme": "Snedronningen",
+    "doorStatus": "locked",
+    "discountCode": "SNEDRONNINGEN",
+    "image": "https://example.com/image.jpg",
+    "icon": "https://example.com/image.jpg",
+    "activities": [
+      {
+        "kind": "tip",
+        "name": "Vedligeholdsguide",
+        "link": "https://ringsted-dun.dk/guides/vaskguide-daglig-vedligehold/"
+      }
+    ]
+  },
+  {
+    "day": 15,
+    "theme": "Snedronningen",
+    "doorStatus": "locked",
+    "discountCode": "SNEDRONNINGEN",
+    "image": "https://example.com/image.jpg",
+    "icon": "https://example.com/image.jpg",
+    "activities": [
+      {
+        "kind": "themePrize",
+        "name": "2x Snedronningen puder (mellem, standard)"
+      }
+    ]
+  },
+  {
+    "day": 16,
+    "theme": "Nattergalen",
+    "doorStatus": "locked",
+    "discountCode": "NATTERGALEN",
+    "image": "https://example.com/image.jpg",
+    "icon": "https://example.com/image.jpg",
+    "activities": [
+      {
+        "kind": "story",
+        "name": "Nattergalen"
+      }
+    ]
+  },
+  {
+    "day": 17,
+    "theme": "Nattergalen",
+    "doorStatus": "locked",
+    "discountCode": "NATTERGALEN",
+    "image": "https://example.com/image.jpg",
+    "icon": "https://example.com/image.jpg",
+    "activities": [
+      {
+        "kind": "tip",
+        "name": "Forhandlere i nærheden",
+        "link": "https://ringsted-dun.dk/find-forhandler/#pblok-0720"
+      }
+    ]
+  },
+  {
+    "day": 18,
+    "theme": "Nattergalen",
+    "doorStatus": "locked",
+    "discountCode": "NATTERGALEN",
+    "image": "https://example.com/image.jpg",
+    "icon": "https://example.com/image.jpg",
+    "activities": [
+      {
+        "kind": "themePrize",
+        "name": "2x Klods-Hans 4-kammers puder (mellem, standard)"
+      }
+    ]
+  },
+  {
+    "day": 19,
+    "theme": "Svinedrengen",
+    "doorStatus": "locked",
+    "discountCode": "SVINEDRENGEN",
+    "image": "https://example.com/image.jpg",
+    "icon": "https://example.com/image.jpg",
+    "activities": [
+      {
+        "kind": "story",
+        "name": "Svinedrengen"
+      }
+    ]
+  },
+  {
+    "day": 20,
+    "theme": "Svinedrengen",
+    "doorStatus": "locked",
+    "discountCode": "SVINEDRENGEN",
+    "image": "https://example.com/image.jpg",
+    "icon": "https://example.com/image.jpg",
+    "activities": [
+      {
+        "kind": "tip",
+        "name": "Valg af dyne",
+        "link": "https://ringsted-dun.dk/guides/valg-af-dyne/"
+      }
+    ]
+  },
+  {
+    "day": 21,
+    "theme": "Svinedrengen",
+    "doorStatus": "locked",
+    "discountCode": "SVINEDRENGEN",
+    "image": "https://example.com/image.jpg",
+    "icon": "https://example.com/image.jpg",
+    "activities": [
+      {
+        "kind": "themePrize",
+        "name": "2x Svinedrengen puder (mellem, standard)"
+      }
+    ]
+  },
+  {
+    "day": 22,
+    "theme": "Tommelise",
+    "doorStatus": "locked",
+    "discountCode": "TOMMELISE",
+    "image": "https://example.com/image.jpg",
+    "icon": "https://example.com/image.jpg",
+    "activities": [
+      {
+        "kind": "story",
+        "name": "Tommelise"
+      }
+    ]
+  },
+  {
+    "day": 23,
+    "theme": "Tommelise",
+    "doorStatus": "locked",
+    "discountCode": "TOMMELISE",
+    "image": "https://example.com/image.jpg",
+    "icon": "https://example.com/image.jpg",
+    "activities": [
+      {
+        "kind": "tip",
+        "name": "Valg af pude",
+        "link": "https://ringsted-dun.dk/guides/valg-af-hovedpude/"
+      }
+    ]
+  },
+  {
+    "day": 24,
+    "theme": "Tommelise",
+    "doorStatus": "locked",
+    "discountCode": "TOMMELISE",
+    "image": "https://example.com/image.jpg",
+    "icon": "https://example.com/image.jpg",
+    "activities": [
+      {
+        "kind": "themePrize",
+        "name": "2x Tommelise puder (mellem, standard)"
+      },
+      {
+        "kind": "grandPrize",
+        "name": "Hovedkonkurrencen"
       }
     ]
   }
